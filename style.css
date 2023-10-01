@@ -1,0 +1,42 @@
+h2 {
+    text-align: center;
+}
+
+form {
+    justify-content: center;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+.col {
+    margin: auto auto;
+}
+
+nav{
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #3b4045;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 5px;
+}
+
+.navA{
+    text-decoration: none;
+    color: #DEE2E6;
+}
+
+.colBotao{
+    
+    display: flex;
+    justify-content: center;
+}
