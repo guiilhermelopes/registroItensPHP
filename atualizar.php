@@ -2,13 +2,13 @@
 
 require 'classes/bancoDeDados/Carro.php';
 
-$titulo = 'Novo cliente';
+$titulo = 'Editar Veículo';
 $acao = 'cadastrar.php';
 $carro = new CarroModel();
 
 if (isset($_GET['codigo'])) {
     $codigo = $_GET['codigo'];
-    $titulo = 'Editar cliente';
+    $titulo = 'Editar Veículo';
     $acao = 'editar.php';
 
     $c = new Carro();
@@ -23,7 +23,7 @@ if (isset($_GET['codigo'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Novo Cliente</title>
+    <title>Novo Veículo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
@@ -34,7 +34,7 @@ if (isset($_GET['codigo'])) {
 <body>
 
     <nav>
-        <a class="navA" href="index.php">Listar Clientes</a>
+        <a class="navA" href="index.php">Listar Veículos</a>
     </nav>
     <div class="container">
 
@@ -110,7 +110,7 @@ if (isset($_GET['codigo'])) {
             </div>
             <div class="row">
                 <div class="col colBotao">
-                    <button type="submit" class="btn btn-primary mt-4 p-2">Cadastrar</button>
+                    <button type="submit" class="btn btn-primary mt-4 p-2">Editar</button>
                 </div>
             </div>
 

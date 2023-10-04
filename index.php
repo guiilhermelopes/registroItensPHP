@@ -71,7 +71,7 @@ if ($codigo != '') {
 
 <body>
     <nav>
-        <a class="navA" href="atualizar.php">Cadastrar Cliente</a>
+        <a class="navA" href="atualizar.php">Cadastrar Veículo</a>
     </nav>
     <h2>Buscar Carro</h2>
     <div class="container">
